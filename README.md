@@ -1,2 +1,2 @@
 # sql-rcasio-projects
-these are just queries while I learn SQL
+these are just for practice queries while I learn SQL
