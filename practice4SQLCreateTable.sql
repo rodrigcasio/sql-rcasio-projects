@@ -46,6 +46,24 @@ WHERE id = 5;
 DELETE FROM friends
 WHERE id = 1;
 
+--updating table, changing the id column
+UPDATE friends
+SET id = 1
+WHERE name = 'Rodrigo Casio'
+
+UPDATE friends
+SET id = 2
+WHERE name = 'Chris Martin';
+
+UPDATE friends
+SET id = 3
+WHERE name = 'Leonhard Euler';
+
+UPDATE friends
+SET id = 4
+WHERE name = 'Richard Feynman';
+
+
 SElECT *
 FROM friends;
 
