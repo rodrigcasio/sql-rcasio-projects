@@ -42,8 +42,9 @@ UPDATE friends
 SET email = 'richardFEINman'
 WHERE id = 5;
 
+--deleting Orore Monroe row
 DELETE FROM friends
-WHERE name = 'Orore Monroe';
+WHERE id = 1;
 
 SElECT *
 FROM friends;
