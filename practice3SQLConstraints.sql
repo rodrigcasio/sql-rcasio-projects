@@ -15,7 +15,7 @@ VALUES (2, 'Andrew Garfield', 'Best Support-Actor');
 INSERT INTO awards
 VALUES (3, 'Justin Timberlake', 'Oscar');
 
-ALTER awards
+ALTER TABLE awards
 ADD COLUMN character_name TEXT;
 
 UPDATE awards
